@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e245effa4ed1145d286dedaa919e0e19, type: 3}
+  m_Name: TrackedAssets_Markers
+  m_EditorClassIdentifier: 
+  assets:
+  - name: Bullet (1)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (2)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (3)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (4)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (5)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (6)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (7)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (8)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (9)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (10)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (11)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (12)
+    locations:
+      location: {x: 0.067952305, y: 1.6931111, z: -0.8573177}
+      rotation: {x: 344.09122, y: 123.40242, z: 11.232632}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (13)
+    locations:
+      location: {x: 0.037502937, y: 1.713115, z: -0.8497145}
+      rotation: {x: 342.88467, y: 127.522705, z: 15.446258}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (14)
+    locations:
+      location: {x: -0.12065427, y: 1.7117418, z: -0.7906279}
+      rotation: {x: 334.93402, y: 145.9718, z: 13.058933}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (15)
+    locations:
+      location: {x: -0.2006762, y: 1.6876158, z: -0.7529777}
+      rotation: {x: 335.74585, y: 155.87259, z: 9.967694}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (16)
+    locations:
+      location: {x: -0.21077591, y: 1.6388661, z: -0.72165793}
+      rotation: {x: 335.36523, y: 158.7306, z: 9.899209}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (17)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (18)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (19)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (20)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (21)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (22)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (23)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (24)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (25)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (26)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (27)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (28)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (29)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (30)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (31)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (32)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (33)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (34)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (35)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (36)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (37)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (38)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (39)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (40)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (41)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (42)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (43)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (44)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (45)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (46)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (47)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (48)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (49)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
+  - name: Bullet (50)
+    locations:
+      location: {x: 1000, y: 1000, z: 1000}
+      rotation: {x: -0, y: 0, z: 0}
+      scale: {x: 1, y: 1, z: 1}
