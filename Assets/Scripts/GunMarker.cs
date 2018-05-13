@@ -6,7 +6,7 @@
     {
         private GameObject bullet;
         public SceneObjectTracking sot;
-        int pool = 0;
+        int pool;
 
 
         public override void StartUsing(VRTK_InteractUse usingObject)
@@ -19,6 +19,7 @@
         {
             bullet = transform.Find("Bullet").gameObject;
             bullet.SetActive(false);
+            pool = 0;
         }
 
         private void FireBullet()
