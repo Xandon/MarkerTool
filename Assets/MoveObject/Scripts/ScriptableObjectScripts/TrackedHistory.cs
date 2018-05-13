@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEditor;
+//using UnityEditor;
 
 [CreateAssetMenu(menuName = "Pickup/Tracked History")]
 public class TrackedHistory : TrackedSaves
