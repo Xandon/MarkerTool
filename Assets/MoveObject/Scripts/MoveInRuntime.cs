@@ -20,29 +20,7 @@ public class MoveInRuntime : MonoBehaviour
         sot = this.GetComponent<SceneObjectTracking>();
     }
 
-    public void ClaerHover()
-    {
-        //Debug.Log("Clear button hover");
-    }
-
-    public void Clear()
-    {
-        for (int i = 0; i < sot.trackedAssets.assets.Length; i++)
-        {
-            sot.TrackedItem[i].transform.position = ClearLocation.position;
-            sot.TrackedItem[i].transform.localScale = ClearLocation.localScale;
-            sot.TrackedItem[i].transform.eulerAngles = ClearLocation.eulerAngles;
-            sot.TrackedItem[i].SetActive(false);
-        }
-        //Debug.Log("GetTrackedAsset button pressed");
-        //Debug.Log("Clear");
-    }
-
-    public void GetTrackedAssetHover()
-    {
-        //Debug.Log("GetTrackedAsset button hover");
-    }
-
+    // Loads transforms from SceneObjectTracking scriptable object data
     public void GetTrackedAssetTransform()
     {
         for (int i = 0; i < sot.trackedAssets.assets.Length; i++)
@@ -56,13 +34,30 @@ public class MoveInRuntime : MonoBehaviour
         //Debug.Log("GetTrackedAssetTransform");
     }
 
-
-
-    public void SaveHover()
+    // Loads the transforms from the json file
+    public void SetObjectsTransform()
     {
-        //Debug.Log("Save button hover");
+        //string indexFileName = myScript.sot.trackedAssets.FileName + HistoryIndex + ".json";
+        string indexFileName = sot.trackedAssetHistory.TrackHistorySaves[sot.trackedAssetHistory.Count].name;
+        string Filepath = Path.Combine(Application.dataPath, indexFileName);
+        if (File.Exists(Filepath))
+        {
+            Debug.Log(indexFileName);
+
+            string jsonString = File.ReadAllText(Filepath);
+            //myScript.sot.trackedAssets.Index = HistoryIndex;
+            JsonUtility.FromJsonOverwrite(jsonString, sot.trackedAssets);
+
+            GetTrackedAssetTransform();
+        }
+        else
+        {
+            Debug.Log("NO FILE EXISTS: " + indexFileName);
+        }
+        //Debug.Log("SetObjectTransform button pressed");
     }
 
+    // Saves the transforms to json file
     public void Save()
     {
         GetTrackedAssetTransform();
@@ -83,53 +78,23 @@ public class MoveInRuntime : MonoBehaviour
     }
 
 
-
-    public void LoadHover()
+    // Clears the objects on the screen by disabling and moving out of view
+    public void Clear()
     {
-        //Debug.Log("Load button hover");
-    }
-
-    public void Load()
-    {
-        //string jsonString = File.ReadAllText(FilePath);
-        //JsonUtility.FromJsonOverwrite(jsonString, sot.trackedAssets);
-        //Debug.Log("Load button pressed");
-        //Debug.Log("Load disabled");
+        for (int i = 0; i < sot.trackedAssets.assets.Length; i++)
+        {
+            sot.TrackedItem[i].transform.position = ClearLocation.position;
+            sot.TrackedItem[i].transform.localScale = ClearLocation.localScale;
+            sot.TrackedItem[i].transform.eulerAngles = ClearLocation.eulerAngles;
+            sot.TrackedItem[i].SetActive(false);
+        }
+        //Debug.Log("GetTrackedAsset button pressed");
+        //Debug.Log("Clear");
     }
 
     public void Quit()
     {
         Application.Quit();
-        //Debug.Log("Quit");
     }
 
-
-    public void SetObjectTransformHover()
-    {
-        //Debug.Log("SetObJectTransform button hover");
-    }
-
-    public void SetObjectsTransform()
-    {
-
-            //string indexFileName = myScript.sot.trackedAssets.FileName + HistoryIndex + ".json";
-            string indexFileName = sot.trackedAssetHistory.TrackHistorySaves[sot.trackedAssetHistory.Count].name;
-            string Filepath = Path.Combine(Application.dataPath, indexFileName);
-            if (File.Exists(Filepath))
-            {
-                Debug.Log(indexFileName);
-
-                string jsonString = File.ReadAllText(Filepath);
-                //myScript.sot.trackedAssets.Index = HistoryIndex;
-                JsonUtility.FromJsonOverwrite(jsonString, sot.trackedAssets);
-
-                GetTrackedAssetTransform();
-            }
-            else
-            {
-                Debug.Log("NO FILE EXISTS: " + indexFileName);
-            }
-        //Debug.Log("SetObjectTransform button pressed");
-
-    }
 }

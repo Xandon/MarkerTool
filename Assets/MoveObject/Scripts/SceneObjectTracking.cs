@@ -40,15 +40,12 @@ public class SceneObjectTracking : MonoBehaviour {
     // Get current transform from TrackedAsset
     void GetTrackedAssetTransform()
     {
-        //if (SetObjectTransforms)
-        //{
             for (int i = 0; i < trackedAssets.assets.Length; i++)
             {
                 TrackedItem[i].transform.position = trackedAssets.assets[i].locations.location;
                 TrackedItem[i].transform.localScale = trackedAssets.assets[i].locations.scale;
                 TrackedItem[i].transform.eulerAngles = trackedAssets.assets[i].locations.rotation;
             }
-        //}
     }
     // Save transforms to json
 
